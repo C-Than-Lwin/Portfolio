@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portfolio</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <!-- Preload the font CSS with proper caching -->
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inclusive+Sans:wght@300..700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inclusive+Sans:wght@300..700&display=swap"></noscript>
+  
+  <!-- Preload Font Awesome with proper caching -->
+  <link rel="preload" href="css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="css/all.min.css"></noscript>
+  
+  <!-- Main styles with versioned URL for cache busting -->
+  <link rel="preload" href="css/styles.css?v=2" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="css/styles.css?v=2"></noscript>
+  
+
+</head>
+<body>
+	<header class="header">
+		<nav class="nav-bar">
+			<div class="brand">
+				<h1 class="brand-type">Portfolio</h1>
+				<a href="index.html"><h2 class="brand-name">Anonymous</h2></a>
+			</div>
+			<input type="checkbox" id="menu-toggle" class="menu-toggle">
+        	<label for="menu-toggle" class="hamburger">
+	            <span></span>
+	            <span></span>
+	            <span></span>
+        	</label>
+         <div class="nav-links-container">
+            <ul class="nav-links">
+				<li>
+					<a href="#about" class="nav-link">About</a>
+				</li>
+				<li>
+					<a href="#education"  class="nav-link">Education</a>
+				</li>
+				<li>
+					<a href="#certification" class="nav-link">Certification</a>
+				</li>
+				<li>
+					<a href="#skill" class="nav-link">Skill</a>
+				</li>
+				<li>
+					<a href="#project"  class="nav-link">Project</a>
+				</li>
+				<li>
+					<a href="#experience"  class="nav-link">Experience</a>
+				</li>
+			</ul>			
+		</nav>
+	</header>
+	<hr id="sepapator">	
+	<main>		
+		<div id="contact">
+			<section>	
+			<img id="photo" 
+				src="./images/anonymous-250x167.webp"
+				alt="Profile Photo"
+				loading="eager"
+				width="150"
+				height="150"
+				decoding="async">
+			<h3>Contact</h3>
+			<div class="social-icons sub-section">
+				<a href="https://www.linkedin.com/" class="social-link">
+					<i class="fab fa-linkedin-in"></i>
+					<span>LinkedIn</span>
+				</a>
+				<a href="mailto:anonymous@email.com" class="social-link">
+					<i class="fab fa-at"></i>
+					<span>Send email</span>
+				</a>
+        	</div>
+        	</section>
+		</div>
+		<div id="sections">
+		<section id="about">
+			<h3 class="section-title">About</h3>
+			<div class="sub-section">
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean convallis sed libero sed faucibus. Suspendisse rhoncus velit ut ex pellentesque, at consequat lacus rhoncus. Vestibulum egestas ex in est finibus efficitur. Donec consequat, lacus ut euismod lobortis, ex ligula euismod nisi, eu pellentesque odio magna id risus.
+			</p>
+		</div>
+		</section>
+		<hr>
+		<section id="education">
+			<h3 class="section-title">Education</h3>
+			<div class="sub-section">
+				<h4>Master of Science</h4>
+				<div class="section-details">				
+					<span>
+						<a href="#" target="_blank">University of Lorem ipsum</a>, Yangon, Myanmar
+					</span>
+					<span>Dec xx20 – Dec xx23</span>				
+				</div>
+			</div>
+			<div class="sub-section">
+				<h4 class="sub-section-title">Bachelor of Science</h4>
+				<div class="section-details">				
+					<span>
+						<a href="#" target="_blank">University of Lorem ipsum</a>, Yangon, Myanmar
+					</span>
+					<span>Dec xx15 – Sept xx20</span>				
+				</div>
+			</div>
+			
+		</section>
+		<hr>
+		<section id="certification">
+			<h3 class="section-title">Certification</h3>
+			<div class="sub-section">
+				<h4>Xxxxxxx</h4>
+				<div class="section-details">				
+					<span>Xxxxxxxxxxxxx</span>
+					<span>Oct, Xx23</span>				
+				</div>
+			</div>
+			<div class="sub-section">
+				<h4>Xxxxxxxx</h4>
+				<div class="section-details">				
+					<span>Xxxxxxxxxxxxx</span>
+					<span>Sep, Xx24</span>				
+				</div>
+			</div>
+			<div class="sub-section">
+				<h4>Xxxxxxxx</h4>
+				<div class="section-details">				
+					<span>Xxxxxxxxxxxxx</span>
+					<span>Jul, Xx25</span>				
+				</div>
+			</div>						
+		</section>
+		<hr>
+		<section id="skill">
+			<h3 class="section-title">Skill</h3>
+			<div class="sub-section">
+			<ul>	
+				<li>
+					Xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+				</li>
+				<li>
+					Xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+				</li>
+				<li>
+					
+				</li>
+			</ul>
+		</div>
+		</section>
+		<hr>
+		<section id="project">
+			<h3 class="section-title" >Projects</h3>
+			<div class="sub-section">
+			<ul class="project-list">	
+				<li>
+					<a href="#">
+						Xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+					</a>	
+				</li>
+				<li>
+					<a href="#">
+						Xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+					</a>	
+				</li>
+			</ul>
+		</div>
+			
+		</section>
+		<hr>
+		<section id="experience">
+			<h3 class="section-title">Experience</h3>
+			<div class="sub-section">
+				<h4>Research Analyst</h4>
+				<div class="section-details">				
+					<span>Xxxxx Company, Asgard</span>
+					<span>Xxx xx18 – Xxx xx19</span>				
+				</div>
+				<div class="exp-details">	
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean convallis sed libero sed faucibus. Suspendisse rhoncus velit ut ex pellentesque, at consequat lacus rhoncus. Vestibulum egestas ex in est finibus efficitur. Donec consequat, lacus ut euismod lobortis, ex ligula euismod nisi, eu pellentesque odio magna id risus. Praesent pretium sapien malesuada, lacinia libero et, semper sapien. Donec quis augue at lectus ornare auctor a ac nibh. In a sapien vitae elit malesuada sagittis.
+				</div>
+			</div>
+			<div class="sub-section">
+				<h4>Consultant</h4>
+				<div class="section-details">				
+					<span>Xxxxx Company, Wakanda</span>
+					<span>Xxx xx18 – Xxx xx19</span>				
+				</div>
+				<div class="exp-details">	
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean convallis sed libero sed faucibus. Suspendisse rhoncus velit ut ex pellentesque, at consequat lacus rhoncus. Vestibulum egestas ex in est finibus efficitur. Donec consequat, lacus ut euismod lobortis, ex ligula euismod nisi, eu pellentesque odio magna id risus. Praesent pretium sapien malesuada, lacinia libero et, semper sapien. Donec quis augue at lectus ornare auctor a ac nibh. In a sapien vitae elit malesuada sagittis.
+				</div>
+			</div>
+			<div class="sub-section">
+				<h4>Lecturer</h4>
+				<div class="section-details">				
+					<span>Xxxxx Company, Nowhere</span>
+					<span>Xxx xx18 – Xxx xx19</span>				
+				</div>
+				<div class="exp-details">	
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean convallis sed libero sed faucibus. Suspendisse rhoncus velit ut ex pellentesque, at consequat lacus rhoncus. Vestibulum egestas ex in est finibus efficitur. Donec consequat, lacus ut euismod lobortis, ex ligula euismod nisi, eu pellentesque odio magna id risus. Praesent pretium sapien malesuada, lacinia libero et, semper sapien. Donec quis augue at lectus ornare auctor a ac nibh. In a sapien vitae elit malesuada sagittis.
+				</div>
+			</div>
+			
+		</section>
+	</div>
+
+	</main>
+	<hr>
+	<footer>
+    	<p>&copy; 2025 Anonymous.</p>
+    </footer>
+</body>
+</html>
